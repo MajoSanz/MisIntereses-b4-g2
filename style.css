@@ -1,0 +1,38 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, article, section, aside, footer {
+            padding: 20px;
+            margin: 20px;
+        }
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #7a7d7d;
+            font-style: italic;
+        }
+        nav {
+            background-color: #d0cfcf;
+        }
+        main {
+            display: flex;
+        }
+        article {
+            background-color: #d9d2b6;
+            flex: 2;
+        }
+        aside {
+            background-color: #e5e5e5;
+            flex: 1;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #565254;
+        }
+        img {
+            display: block;
+            margin-top: 10px;
+        }
